@@ -363,7 +363,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fbd-4F-Q2c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4500" y="-12.053571428571429"/>
+            <point key="canvasLocation" x="4498.5507246376819" y="-12.053571428571429"/>
         </scene>
         <!--groupName-->
         <scene sceneID="Z1F-gJ-HLp">
@@ -749,7 +749,7 @@
         <!--CreateAlbum-->
         <scene sceneID="miZ-ne-R3P">
             <objects>
-                <viewController title="CreateAlbum" id="7z8-1i-odP" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateAlbumViewController" title="CreateAlbum" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7z8-1i-odP" customClass="CreateAlbumViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8cZ-hH-nTU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -860,6 +860,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="J3h-7U-Pyw"/>
                     </view>
+                    <connections>
+                        <outlet property="createAlbumCollectionView" destination="gLI-hf-Z3Z" id="D1l-kB-eLY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QUd-NP-O1w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -868,7 +871,7 @@
         <!--addImgVideo-->
         <scene sceneID="7SS-QB-V76">
             <objects>
-                <viewController title="addImgVideo" id="btP-dJ-UiQ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UpdateAlbumViewController" title="addImgVideo" useStoryboardIdentifierAsRestorationIdentifier="YES" id="btP-dJ-UiQ" customClass="UpdateAlbumViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qXK-R1-4sE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -921,7 +924,7 @@
                                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Ijm-nE-xFK">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="580"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="xL5-hK-c27">
+                                                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="3" minimumInteritemSpacing="0.0" id="xL5-hK-c27">
                                                             <size key="itemSize" width="128" height="128"/>
                                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -971,6 +974,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="BT8-R5-1C4"/>
                     </view>
+                    <connections>
+                        <outlet property="updateAlbumCollectionView" destination="Ijm-nE-xFK" id="j89-ti-p9u"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y3I-la-WQJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
