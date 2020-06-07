@@ -1,0 +1,6 @@
+framework module Pods_albumshare {
+  umbrella header "Pods-albumshare-umbrella.h"
+
+  export *
+  module * { export * }
+}

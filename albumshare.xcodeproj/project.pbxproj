@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41403ADB7BBB96BE10E3FF51 /* Pods_albumshare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8E140A3CE151BB109D6556 /* Pods_albumshare.framework */; };
+		61A0B5BADD81383DED4BF610 /* Pods_albumshareTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA24BA48FC93A922546F4A8 /* Pods_albumshareTests.framework */; };
+		94CFC85E003225A38D7CF873 /* Pods_albumshare_albumshareUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D0683E83B092244631CFD1 /* Pods_albumshare_albumshareUITests.framework */; };
+		F07138BE246B827A00D64BDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F07138BD246B827A00D64BDD /* AppDelegate.m */; };
+		F07138C1246B827A00D64BDD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F07138C0246B827A00D64BDD /* SceneDelegate.m */; };
+		F07138C4246B827A00D64BDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07138C3246B827A00D64BDD /* ViewController.m */; };
+		F07138C7246B827A00D64BDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F07138C5246B827A00D64BDD /* Main.storyboard */; };
+		F07138C9246B827B00D64BDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F07138C8246B827B00D64BDD /* Assets.xcassets */; };
+		F07138CC246B827B00D64BDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F07138CA246B827B00D64BDD /* LaunchScreen.storyboard */; };
+		F07138CF246B827B00D64BDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F07138CE246B827B00D64BDD /* main.m */; };
+		F07138D9246B827B00D64BDD /* albumshareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F07138D8246B827B00D64BDD /* albumshareTests.m */; };
+		F07138E4246B827B00D64BDD /* albumshareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F07138E3246B827B00D64BDD /* albumshareUITests.m */; };
+		F0D35786248756A000D1C588 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0D35785248756A000D1C588 /* GoogleService-Info.plist */; };
+		F0D35787248756A000D1C588 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0D35785248756A000D1C588 /* GoogleService-Info.plist */; };
+		F0D35788248756A000D1C588 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0D35785248756A000D1C588 /* GoogleService-Info.plist */; };
+		F0FCCF92248B6A2500A72C24 /* LandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCCF91248B6A2500A72C24 /* LandingViewController.m */; };
+		F0FCCFA1248B8BDD00A72C24 /* GroupScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCCFA0248B8BDD00A72C24 /* GroupScreenViewController.m */; };
+		F0FCCFA4248B8BED00A72C24 /* AlbumScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCCFA3248B8BED00A72C24 /* AlbumScreenViewController.m */; };
+		F0FCCFA7248BB29D00A72C24 /* ImageScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCCFA6248BB29D00A72C24 /* ImageScreenViewController.m */; };
+		F0FCCFAA248BB8E700A72C24 /* CreateGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCCFA9248BB8E700A72C24 /* CreateGroupViewController.m */; };
+		F0FCCFAD248BB90600A72C24 /* CreateAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCCFAC248BB90600A72C24 /* CreateAlbumViewController.m */; };
+		F0FCCFB0248BB91D00A72C24 /* UpdateAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FCCFAF248BB91D00A72C24 /* UpdateAlbumViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F07138D5246B827B00D64BDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F07138B1246B827A00D64BDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F07138B8246B827A00D64BDD;
+			remoteInfo = albumshare;
+		};
+		F07138E0246B827B00D64BDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F07138B1246B827A00D64BDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F07138B8246B827A00D64BDD;
+			remoteInfo = albumshare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DA24BA48FC93A922546F4A8 /* Pods_albumshareTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_albumshareTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		450B8BD74C2396A1EE3902B2 /* Pods-albumshare-albumshareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-albumshare-albumshareUITests.debug.xcconfig"; path = "Target Support Files/Pods-albumshare-albumshareUITests/Pods-albumshare-albumshareUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D8E140A3CE151BB109D6556 /* Pods_albumshare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_albumshare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		878CC9D921BB564AFD868C65 /* Pods-albumshareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-albumshareTests.debug.xcconfig"; path = "Target Support Files/Pods-albumshareTests/Pods-albumshareTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9362329EB2D0846C1AB57A88 /* Pods-albumshare-albumshareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-albumshare-albumshareUITests.release.xcconfig"; path = "Target Support Files/Pods-albumshare-albumshareUITests/Pods-albumshare-albumshareUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9EFBB7B3C71D6A05C250F107 /* Pods-albumshare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-albumshare.debug.xcconfig"; path = "Target Support Files/Pods-albumshare/Pods-albumshare.debug.xcconfig"; sourceTree = "<group>"; };
+		A0F393F057E40E507841A5C8 /* Pods-albumshareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-albumshareTests.release.xcconfig"; path = "Target Support Files/Pods-albumshareTests/Pods-albumshareTests.release.xcconfig"; sourceTree = "<group>"; };
+		A988A2518CCC094FAC8DDD15 /* Pods-albumshare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-albumshare.release.xcconfig"; path = "Target Support Files/Pods-albumshare/Pods-albumshare.release.xcconfig"; sourceTree = "<group>"; };
+		C0D0683E83B092244631CFD1 /* Pods_albumshare_albumshareUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_albumshare_albumshareUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07138B9246B827A00D64BDD /* albumshare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = albumshare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07138BC246B827A00D64BDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F07138BD246B827A00D64BDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F07138BF246B827A00D64BDD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F07138C0246B827A00D64BDD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F07138C2246B827A00D64BDD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F07138C3246B827A00D64BDD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F07138C6246B827A00D64BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F07138C8246B827B00D64BDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = /Users/timhaggqvistluotomaki/Documents/xCodeProjects/albumshare/albumshare/Assets.xcassets; sourceTree = "<absolute>"; };
+		F07138CB246B827B00D64BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F07138CD246B827B00D64BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F07138CE246B827B00D64BDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F07138D4246B827B00D64BDD /* albumshareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = albumshareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07138D8246B827B00D64BDD /* albumshareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = albumshareTests.m; sourceTree = "<group>"; };
+		F07138DA246B827B00D64BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F07138DF246B827B00D64BDD /* albumshareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = albumshareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07138E3246B827B00D64BDD /* albumshareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = albumshareUITests.m; sourceTree = "<group>"; };
+		F07138E5246B827B00D64BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0D35785248756A000D1C588 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F0FCCF90248B6A2500A72C24 /* LandingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandingViewController.h; sourceTree = "<group>"; };
+		F0FCCF91248B6A2500A72C24 /* LandingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandingViewController.m; sourceTree = "<group>"; };
+		F0FCCF9F248B8BDD00A72C24 /* GroupScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupScreenViewController.h; sourceTree = "<group>"; };
+		F0FCCFA0248B8BDD00A72C24 /* GroupScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupScreenViewController.m; sourceTree = "<group>"; };
+		F0FCCFA2248B8BED00A72C24 /* AlbumScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumScreenViewController.h; sourceTree = "<group>"; };
+		F0FCCFA3248B8BED00A72C24 /* AlbumScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumScreenViewController.m; sourceTree = "<group>"; };
+		F0FCCFA5248BB29D00A72C24 /* ImageScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageScreenViewController.h; sourceTree = "<group>"; };
+		F0FCCFA6248BB29D00A72C24 /* ImageScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageScreenViewController.m; sourceTree = "<group>"; };
+		F0FCCFA8248BB8E700A72C24 /* CreateGroupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateGroupViewController.h; sourceTree = "<group>"; };
+		F0FCCFA9248BB8E700A72C24 /* CreateGroupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateGroupViewController.m; sourceTree = "<group>"; };
+		F0FCCFAB248BB90600A72C24 /* CreateAlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateAlbumViewController.h; sourceTree = "<group>"; };
+		F0FCCFAC248BB90600A72C24 /* CreateAlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateAlbumViewController.m; sourceTree = "<group>"; };
+		F0FCCFAE248BB91D00A72C24 /* UpdateAlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpdateAlbumViewController.h; sourceTree = "<group>"; };
+		F0FCCFAF248BB91D00A72C24 /* UpdateAlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpdateAlbumViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F07138B6246B827A00D64BDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41403ADB7BBB96BE10E3FF51 /* Pods_albumshare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07138D1246B827B00D64BDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A0B5BADD81383DED4BF610 /* Pods_albumshareTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07138DC246B827B00D64BDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CFC85E003225A38D7CF873 /* Pods_albumshare_albumshareUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65C9764D2D586ECAF406064F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EFBB7B3C71D6A05C250F107 /* Pods-albumshare.debug.xcconfig */,
+				A988A2518CCC094FAC8DDD15 /* Pods-albumshare.release.xcconfig */,
+				450B8BD74C2396A1EE3902B2 /* Pods-albumshare-albumshareUITests.debug.xcconfig */,
+				9362329EB2D0846C1AB57A88 /* Pods-albumshare-albumshareUITests.release.xcconfig */,
+				878CC9D921BB564AFD868C65 /* Pods-albumshareTests.debug.xcconfig */,
+				A0F393F057E40E507841A5C8 /* Pods-albumshareTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E7CDE397C573F98E2D7D6709 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D8E140A3CE151BB109D6556 /* Pods_albumshare.framework */,
+				C0D0683E83B092244631CFD1 /* Pods_albumshare_albumshareUITests.framework */,
+				3DA24BA48FC93A922546F4A8 /* Pods_albumshareTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F07138B0246B827A00D64BDD = {
+			isa = PBXGroup;
+			children = (
+				F07138BB246B827A00D64BDD /* albumshare */,
+				F07138D7246B827B00D64BDD /* albumshareTests */,
+				F07138E2246B827B00D64BDD /* albumshareUITests */,
+				F07138BA246B827A00D64BDD /* Products */,
+				65C9764D2D586ECAF406064F /* Pods */,
+				E7CDE397C573F98E2D7D6709 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F07138BA246B827A00D64BDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F07138B9246B827A00D64BDD /* albumshare.app */,
+				F07138D4246B827B00D64BDD /* albumshareTests.xctest */,
+				F07138DF246B827B00D64BDD /* albumshareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F07138BB246B827A00D64BDD /* albumshare */ = {
+			isa = PBXGroup;
+			children = (
+				F07138BC246B827A00D64BDD /* AppDelegate.h */,
+				F07138BD246B827A00D64BDD /* AppDelegate.m */,
+				F07138BF246B827A00D64BDD /* SceneDelegate.h */,
+				F07138C0246B827A00D64BDD /* SceneDelegate.m */,
+				F07138C2246B827A00D64BDD /* ViewController.h */,
+				F07138C3246B827A00D64BDD /* ViewController.m */,
+				F07138C5246B827A00D64BDD /* Main.storyboard */,
+				F07138C8246B827B00D64BDD /* Assets.xcassets */,
+				F0D35785248756A000D1C588 /* GoogleService-Info.plist */,
+				F07138CA246B827B00D64BDD /* LaunchScreen.storyboard */,
+				F07138CD246B827B00D64BDD /* Info.plist */,
+				F07138CE246B827B00D64BDD /* main.m */,
+				F0FCCF90248B6A2500A72C24 /* LandingViewController.h */,
+				F0FCCF91248B6A2500A72C24 /* LandingViewController.m */,
+				F0FCCF9F248B8BDD00A72C24 /* GroupScreenViewController.h */,
+				F0FCCFA0248B8BDD00A72C24 /* GroupScreenViewController.m */,
+				F0FCCFA2248B8BED00A72C24 /* AlbumScreenViewController.h */,
+				F0FCCFA3248B8BED00A72C24 /* AlbumScreenViewController.m */,
+				F0FCCFA5248BB29D00A72C24 /* ImageScreenViewController.h */,
+				F0FCCFA6248BB29D00A72C24 /* ImageScreenViewController.m */,
+				F0FCCFA8248BB8E700A72C24 /* CreateGroupViewController.h */,
+				F0FCCFA9248BB8E700A72C24 /* CreateGroupViewController.m */,
+				F0FCCFAB248BB90600A72C24 /* CreateAlbumViewController.h */,
+				F0FCCFAC248BB90600A72C24 /* CreateAlbumViewController.m */,
+				F0FCCFAE248BB91D00A72C24 /* UpdateAlbumViewController.h */,
+				F0FCCFAF248BB91D00A72C24 /* UpdateAlbumViewController.m */,
+			);
+			path = albumshare;
+			sourceTree = "<group>";
+		};
+		F07138D7246B827B00D64BDD /* albumshareTests */ = {
+			isa = PBXGroup;
+			children = (
+				F07138D8246B827B00D64BDD /* albumshareTests.m */,
+				F07138DA246B827B00D64BDD /* Info.plist */,
+			);
+			path = albumshareTests;
+			sourceTree = "<group>";
+		};
+		F07138E2246B827B00D64BDD /* albumshareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F07138E3246B827B00D64BDD /* albumshareUITests.m */,
+				F07138E5246B827B00D64BDD /* Info.plist */,
+			);
+			path = albumshareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F07138B8246B827A00D64BDD /* albumshare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07138E8246B827B00D64BDD /* Build configuration list for PBXNativeTarget "albumshare" */;
+			buildPhases = (
+				A08F26603DB79C54388F7890 /* [CP] Check Pods Manifest.lock */,
+				F07138B5246B827A00D64BDD /* Sources */,
+				F07138B6246B827A00D64BDD /* Frameworks */,
+				F07138B7246B827A00D64BDD /* Resources */,
+				1B961686CD9860C05DC16413 /* [CP] Embed Pods Frameworks */,
+				580B0EAC84D7C945FDCFBAEB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = albumshare;
+			productName = albumshare;
+			productReference = F07138B9246B827A00D64BDD /* albumshare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F07138D3246B827B00D64BDD /* albumshareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07138EB246B827B00D64BDD /* Build configuration list for PBXNativeTarget "albumshareTests" */;
+			buildPhases = (
+				B0DE0A8C11BF8D7117D56581 /* [CP] Check Pods Manifest.lock */,
+				F07138D0246B827B00D64BDD /* Sources */,
+				F07138D1246B827B00D64BDD /* Frameworks */,
+				F07138D2246B827B00D64BDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F07138D6246B827B00D64BDD /* PBXTargetDependency */,
+			);
+			name = albumshareTests;
+			productName = albumshareTests;
+			productReference = F07138D4246B827B00D64BDD /* albumshareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F07138DE246B827B00D64BDD /* albumshareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07138EE246B827B00D64BDD /* Build configuration list for PBXNativeTarget "albumshareUITests" */;
+			buildPhases = (
+				33C89B491CF88A769A3A46BA /* [CP] Check Pods Manifest.lock */,
+				F07138DB246B827B00D64BDD /* Sources */,
+				F07138DC246B827B00D64BDD /* Frameworks */,
+				F07138DD246B827B00D64BDD /* Resources */,
+				58FB8C735449CFC25A54D788 /* [CP] Embed Pods Frameworks */,
+				2B579AFF74498EE91F09740C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F07138E1246B827B00D64BDD /* PBXTargetDependency */,
+			);
+			name = albumshareUITests;
+			productName = albumshareUITests;
+			productReference = F07138DF246B827B00D64BDD /* albumshareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F07138B1246B827A00D64BDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Tim Häggqvist Luotomäki";
+				TargetAttributes = {
+					F07138B8246B827A00D64BDD = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					F07138D3246B827B00D64BDD = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = F07138B8246B827A00D64BDD;
+					};
+					F07138DE246B827B00D64BDD = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = F07138B8246B827A00D64BDD;
+					};
+				};
+			};
+			buildConfigurationList = F07138B4246B827A00D64BDD /* Build configuration list for PBXProject "albumshare" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F07138B0246B827A00D64BDD;
+			productRefGroup = F07138BA246B827A00D64BDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F07138B8246B827A00D64BDD /* albumshare */,
+				F07138D3246B827B00D64BDD /* albumshareTests */,
+				F07138DE246B827B00D64BDD /* albumshareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F07138B7246B827A00D64BDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07138CC246B827B00D64BDD /* LaunchScreen.storyboard in Resources */,
+				F0D35786248756A000D1C588 /* GoogleService-Info.plist in Resources */,
+				F07138C9246B827B00D64BDD /* Assets.xcassets in Resources */,
+				F07138C7246B827A00D64BDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07138D2246B827B00D64BDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D35787248756A000D1C588 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07138DD246B827B00D64BDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D35788248756A000D1C588 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B961686CD9860C05DC16413 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-albumshare/Pods-albumshare-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-albumshare/Pods-albumshare-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-albumshare/Pods-albumshare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B579AFF74498EE91F09740C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-albumshare-albumshareUITests/Pods-albumshare-albumshareUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-albumshare-albumshareUITests/Pods-albumshare-albumshareUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-albumshare-albumshareUITests/Pods-albumshare-albumshareUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33C89B491CF88A769A3A46BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-albumshare-albumshareUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		580B0EAC84D7C945FDCFBAEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-albumshare/Pods-albumshare-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-albumshare/Pods-albumshare-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-albumshare/Pods-albumshare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58FB8C735449CFC25A54D788 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-albumshare-albumshareUITests/Pods-albumshare-albumshareUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-albumshare-albumshareUITests/Pods-albumshare-albumshareUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-albumshare-albumshareUITests/Pods-albumshare-albumshareUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A08F26603DB79C54388F7890 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-albumshare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0DE0A8C11BF8D7117D56581 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-albumshareTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F07138B5246B827A00D64BDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0FCCFA7248BB29D00A72C24 /* ImageScreenViewController.m in Sources */,
+				F0FCCFAA248BB8E700A72C24 /* CreateGroupViewController.m in Sources */,
+				F0FCCFA1248B8BDD00A72C24 /* GroupScreenViewController.m in Sources */,
+				F07138C4246B827A00D64BDD /* ViewController.m in Sources */,
+				F0FCCFAD248BB90600A72C24 /* CreateAlbumViewController.m in Sources */,
+				F0FCCF92248B6A2500A72C24 /* LandingViewController.m in Sources */,
+				F07138BE246B827A00D64BDD /* AppDelegate.m in Sources */,
+				F07138CF246B827B00D64BDD /* main.m in Sources */,
+				F07138C1246B827A00D64BDD /* SceneDelegate.m in Sources */,
+				F0FCCFB0248BB91D00A72C24 /* UpdateAlbumViewController.m in Sources */,
+				F0FCCFA4248B8BED00A72C24 /* AlbumScreenViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07138D0246B827B00D64BDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07138D9246B827B00D64BDD /* albumshareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07138DB246B827B00D64BDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07138E4246B827B00D64BDD /* albumshareUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F07138D6246B827B00D64BDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F07138B8246B827A00D64BDD /* albumshare */;
+			targetProxy = F07138D5246B827B00D64BDD /* PBXContainerItemProxy */;
+		};
+		F07138E1246B827B00D64BDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F07138B8246B827A00D64BDD /* albumshare */;
+			targetProxy = F07138E0246B827B00D64BDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F07138C5246B827A00D64BDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F07138C6246B827A00D64BDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F07138CA246B827B00D64BDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F07138CB246B827B00D64BDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F07138E6246B827B00D64BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F07138E7246B827B00D64BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F07138E9246B827B00D64BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EFBB7B3C71D6A05C250F107 /* Pods-albumshare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = albumshare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tihl.albumshare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F07138EA246B827B00D64BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A988A2518CCC094FAC8DDD15 /* Pods-albumshare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = albumshare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tihl.albumshare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F07138EC246B827B00D64BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 878CC9D921BB564AFD868C65 /* Pods-albumshareTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = albumshareTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tihl.albumshareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/albumshare.app/albumshare";
+			};
+			name = Debug;
+		};
+		F07138ED246B827B00D64BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0F393F057E40E507841A5C8 /* Pods-albumshareTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = albumshareTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tihl.albumshareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/albumshare.app/albumshare";
+			};
+			name = Release;
+		};
+		F07138EF246B827B00D64BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 450B8BD74C2396A1EE3902B2 /* Pods-albumshare-albumshareUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = albumshareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tihl.albumshareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = albumshare;
+			};
+			name = Debug;
+		};
+		F07138F0246B827B00D64BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9362329EB2D0846C1AB57A88 /* Pods-albumshare-albumshareUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = albumshareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tihl.albumshareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = albumshare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F07138B4246B827A00D64BDD /* Build configuration list for PBXProject "albumshare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07138E6246B827B00D64BDD /* Debug */,
+				F07138E7246B827B00D64BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F07138E8246B827B00D64BDD /* Build configuration list for PBXNativeTarget "albumshare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07138E9246B827B00D64BDD /* Debug */,
+				F07138EA246B827B00D64BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F07138EB246B827B00D64BDD /* Build configuration list for PBXNativeTarget "albumshareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07138EC246B827B00D64BDD /* Debug */,
+				F07138ED246B827B00D64BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F07138EE246B827B00D64BDD /* Build configuration list for PBXNativeTarget "albumshareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07138EF246B827B00D64BDD /* Debug */,
+				F07138F0246B827B00D64BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F07138B1246B827A00D64BDD /* Project object */;
+}
