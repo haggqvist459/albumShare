@@ -10,6 +10,7 @@
 		41403ADB7BBB96BE10E3FF51 /* Pods_albumshare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8E140A3CE151BB109D6556 /* Pods_albumshare.framework */; };
 		61A0B5BADD81383DED4BF610 /* Pods_albumshareTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA24BA48FC93A922546F4A8 /* Pods_albumshareTests.framework */; };
 		94CFC85E003225A38D7CF873 /* Pods_albumshare_albumshareUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D0683E83B092244631CFD1 /* Pods_albumshare_albumshareUITests.framework */; };
+		F01A3CE924908D7E00334D36 /* StartupScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01A3CE824908D7E00334D36 /* StartupScreenViewController.m */; };
 		F07138BE246B827A00D64BDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F07138BD246B827A00D64BDD /* AppDelegate.m */; };
 		F07138C1246B827A00D64BDD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F07138C0246B827A00D64BDD /* SceneDelegate.m */; };
 		F07138C4246B827A00D64BDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07138C3246B827A00D64BDD /* ViewController.m */; };
@@ -19,6 +20,7 @@
 		F07138CF246B827B00D64BDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F07138CE246B827B00D64BDD /* main.m */; };
 		F07138D9246B827B00D64BDD /* albumshareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F07138D8246B827B00D64BDD /* albumshareTests.m */; };
 		F07138E4246B827B00D64BDD /* albumshareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F07138E3246B827B00D64BDD /* albumshareUITests.m */; };
+		F0C4C1EC2491CE4D00C4AB15 /* LandingScreenNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C4C1EB2491CE4D00C4AB15 /* LandingScreenNavigationController.m */; };
 		F0D35786248756A000D1C588 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0D35785248756A000D1C588 /* GoogleService-Info.plist */; };
 		F0D35787248756A000D1C588 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0D35785248756A000D1C588 /* GoogleService-Info.plist */; };
 		F0D35788248756A000D1C588 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0D35785248756A000D1C588 /* GoogleService-Info.plist */; };
@@ -58,6 +60,8 @@
 		A0F393F057E40E507841A5C8 /* Pods-albumshareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-albumshareTests.release.xcconfig"; path = "Target Support Files/Pods-albumshareTests/Pods-albumshareTests.release.xcconfig"; sourceTree = "<group>"; };
 		A988A2518CCC094FAC8DDD15 /* Pods-albumshare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-albumshare.release.xcconfig"; path = "Target Support Files/Pods-albumshare/Pods-albumshare.release.xcconfig"; sourceTree = "<group>"; };
 		C0D0683E83B092244631CFD1 /* Pods_albumshare_albumshareUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_albumshare_albumshareUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01A3CE724908D7E00334D36 /* StartupScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartupScreenViewController.h; sourceTree = "<group>"; };
+		F01A3CE824908D7E00334D36 /* StartupScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartupScreenViewController.m; sourceTree = "<group>"; };
 		F07138B9246B827A00D64BDD /* albumshare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = albumshare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F07138BC246B827A00D64BDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F07138BD246B827A00D64BDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -76,6 +80,8 @@
 		F07138DF246B827B00D64BDD /* albumshareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = albumshareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F07138E3246B827B00D64BDD /* albumshareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = albumshareUITests.m; sourceTree = "<group>"; };
 		F07138E5246B827B00D64BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0C4C1EA2491CE4D00C4AB15 /* LandingScreenNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandingScreenNavigationController.h; sourceTree = "<group>"; };
+		F0C4C1EB2491CE4D00C4AB15 /* LandingScreenNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandingScreenNavigationController.m; sourceTree = "<group>"; };
 		F0D35785248756A000D1C588 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F0FCCF90248B6A2500A72C24 /* LandingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandingViewController.h; sourceTree = "<group>"; };
 		F0FCCF91248B6A2500A72C24 /* LandingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandingViewController.m; sourceTree = "<group>"; };
@@ -144,6 +150,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F01A3CEA2490933900334D36 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F0FCCF90248B6A2500A72C24 /* LandingViewController.h */,
+				F0FCCF91248B6A2500A72C24 /* LandingViewController.m */,
+				F0FCCF9F248B8BDD00A72C24 /* GroupScreenViewController.h */,
+				F0FCCFA0248B8BDD00A72C24 /* GroupScreenViewController.m */,
+				F0FCCFA2248B8BED00A72C24 /* AlbumScreenViewController.h */,
+				F0FCCFA3248B8BED00A72C24 /* AlbumScreenViewController.m */,
+				F0FCCFA5248BB29D00A72C24 /* ImageScreenViewController.h */,
+				F0FCCFA6248BB29D00A72C24 /* ImageScreenViewController.m */,
+				F0FCCFA8248BB8E700A72C24 /* CreateGroupViewController.h */,
+				F0FCCFA9248BB8E700A72C24 /* CreateGroupViewController.m */,
+				F0FCCFAB248BB90600A72C24 /* CreateAlbumViewController.h */,
+				F0FCCFAC248BB90600A72C24 /* CreateAlbumViewController.m */,
+				F0FCCFAE248BB91D00A72C24 /* UpdateAlbumViewController.h */,
+				F0FCCFAF248BB91D00A72C24 /* UpdateAlbumViewController.m */,
+				F01A3CE724908D7E00334D36 /* StartupScreenViewController.h */,
+				F01A3CE824908D7E00334D36 /* StartupScreenViewController.m */,
+				F0C4C1EA2491CE4D00C4AB15 /* LandingScreenNavigationController.h */,
+				F0C4C1EB2491CE4D00C4AB15 /* LandingScreenNavigationController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		F07138B0246B827A00D64BDD = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +200,7 @@
 		F07138BB246B827A00D64BDD /* albumshare */ = {
 			isa = PBXGroup;
 			children = (
+				F01A3CEA2490933900334D36 /* ViewControllers */,
 				F07138BC246B827A00D64BDD /* AppDelegate.h */,
 				F07138BD246B827A00D64BDD /* AppDelegate.m */,
 				F07138BF246B827A00D64BDD /* SceneDelegate.h */,
@@ -181,20 +213,6 @@
 				F07138CA246B827B00D64BDD /* LaunchScreen.storyboard */,
 				F07138CD246B827B00D64BDD /* Info.plist */,
 				F07138CE246B827B00D64BDD /* main.m */,
-				F0FCCF90248B6A2500A72C24 /* LandingViewController.h */,
-				F0FCCF91248B6A2500A72C24 /* LandingViewController.m */,
-				F0FCCF9F248B8BDD00A72C24 /* GroupScreenViewController.h */,
-				F0FCCFA0248B8BDD00A72C24 /* GroupScreenViewController.m */,
-				F0FCCFA2248B8BED00A72C24 /* AlbumScreenViewController.h */,
-				F0FCCFA3248B8BED00A72C24 /* AlbumScreenViewController.m */,
-				F0FCCFA5248BB29D00A72C24 /* ImageScreenViewController.h */,
-				F0FCCFA6248BB29D00A72C24 /* ImageScreenViewController.m */,
-				F0FCCFA8248BB8E700A72C24 /* CreateGroupViewController.h */,
-				F0FCCFA9248BB8E700A72C24 /* CreateGroupViewController.m */,
-				F0FCCFAB248BB90600A72C24 /* CreateAlbumViewController.h */,
-				F0FCCFAC248BB90600A72C24 /* CreateAlbumViewController.m */,
-				F0FCCFAE248BB91D00A72C24 /* UpdateAlbumViewController.h */,
-				F0FCCFAF248BB91D00A72C24 /* UpdateAlbumViewController.m */,
 			);
 			path = albumshare;
 			sourceTree = "<group>";
@@ -497,6 +515,7 @@
 				F0FCCFA7248BB29D00A72C24 /* ImageScreenViewController.m in Sources */,
 				F0FCCFAA248BB8E700A72C24 /* CreateGroupViewController.m in Sources */,
 				F0FCCFA1248B8BDD00A72C24 /* GroupScreenViewController.m in Sources */,
+				F0C4C1EC2491CE4D00C4AB15 /* LandingScreenNavigationController.m in Sources */,
 				F07138C4246B827A00D64BDD /* ViewController.m in Sources */,
 				F0FCCFAD248BB90600A72C24 /* CreateAlbumViewController.m in Sources */,
 				F0FCCF92248B6A2500A72C24 /* LandingViewController.m in Sources */,
@@ -504,6 +523,7 @@
 				F07138CF246B827B00D64BDD /* main.m in Sources */,
 				F07138C1246B827A00D64BDD /* SceneDelegate.m in Sources */,
 				F0FCCFB0248BB91D00A72C24 /* UpdateAlbumViewController.m in Sources */,
+				F01A3CE924908D7E00334D36 /* StartupScreenViewController.m in Sources */,
 				F0FCCFA4248B8BED00A72C24 /* AlbumScreenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

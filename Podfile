@@ -15,6 +15,9 @@ pod 'Firebase/Analytics'
 pod 'Firebase/Auth'
 pod 'Firebase/Firestore'
 pod 'GoogleSignIn'
+pod 'FirebaseUI'
+pod 'FirebaseUI/Auth'
+pod 'FirebaseUI/Google'
 # add pods for any other desired Firebase products
 # https://firebase.google.com/docs/ios/setup#available-pods
 
